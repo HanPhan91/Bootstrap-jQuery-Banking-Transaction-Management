@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
+    <title>Deposit</title>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/fontawesome/js/all.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid table-content">
+      <div class="row card-title bg-primary mb-0">
+        <div class="col-8 my-auto">
+          <h1 class="text-white ms-3">Deposit money into customer's account</h1>
+        </div>
+        <div class="col-4 my-auto d-flex justify-content-end">
+          <a href="#" class="btn text-white border-light me-1"
+            ><i class="fas fa-list me-1"></i><span>Customer List</span></a
+          >
+        </div>
+      </div>
+      <form>
+        <div class="row mt-3 p-0">
+          <div class="col-6 fw-bold p-0">
+            <span>Customer ID</span>
+            <input type="text" class="w-100" disabled value="35" />
+            <span>Current balance ($)</span>
+            <input type="text" class="w-100" disabled value="10 000 000" />
+            <button class="btn btn-outline-success mt-3">
+              <i class="fas fa-plus me-1"></i><span>Deposit</span>
+            </button>
+          </div>
+          <div class="col-6 fw-bold pe-0">
+            <span>Full name</span>
+            <input type="text" class="w-100" disabled value="Tata Kan" />
+            <span>Transaction Amount ($)</span>
+            <input type="text" class="w-100" />
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="position-absolute bottom-0 w-100 footer overflow-hidden">
+      <div class="row table-content">
+        <div class="col-6 text-center my-auto">
+          <span class="text-success fw-bold"
+            >Successful deposit transaction</span>
+        </div>
+        <div class="col-6 text-end my-auto">
+          <a href="#" class="btn btn-"><span class="close-btn">X</span></a> 
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
